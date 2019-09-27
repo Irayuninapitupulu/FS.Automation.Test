@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FS User" time="57" tests="1" failures="1" errors="0">
+   <testsuite name="FS User" tests="1" failures="1" errors="0" time="57" timestamp="2019-09-24 16:13:00" hostname="irayuni.napitupulu - DIVINE.moonlay.jakarta" id="Test Suites/FS User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\irayuni.napitululu\\Katalon Studio\\Mission Astra\\Reports\\FS User\\20190924_161258"/>
+         <property name="logFiles" value="C:\\Users\\irayuni.napitululu\\Katalon Studio\\Mission Astra\\Reports\\FS User\\20190924_161258\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="irayuni.napitupulu - DIVINE.moonlay.jakarta"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 76.0.3809.132"/>
+         <property name="hostAddress" value="11.11.3.11"/>
+         <property name="sessionId" value="40060bd8d6bf95509fda80a748c48e0d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FS/Search User" classname="Test Cases/FS/Search User" status="PASSED">
+         <system-out><![CDATA[2019-09-24 16:13:01 - [TEST_CASE][PASSED] - Test Cases/FS/Search User: Test Cases/FS/Search User
+
+2019-09-24 16:13:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-24 16:13:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-24 16:13:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-24 16:13:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-24 16:13:10 - [TEST_STEP][PASSED] - navigateToUrl("https://astra-ai-fs-admin.azurewebsites.net/#/track-fs-position"): Navigate to 'https://astra-ai-fs-admin.azurewebsites.net/#/track-fs-position' successfully
+
+2019-09-24 16:13:19 - [MESSAGE][PASSED] - Navigate to 'https://astra-ai-fs-admin.azurewebsites.net/#/track-fs-position' successfully
+
+2019-09-24 16:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_User FS/a_User Management")): Object: 'Object Repository/Page_User FS/a_User Management' is clicked on
+
+2019-09-24 16:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User FS/a_User Management' is clicked on
+
+2019-09-24 16:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_User FS/a_User")): Object: 'Object Repository/Page_User FS/a_User' is clicked on
+
+2019-09-24 16:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User FS/a_User' is clicked on
+
+2019-09-24 16:13:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-24 16:13:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-24 16:13:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_User FS/input_Search by Email_col-md-9"), "sbodionl0337@ai.astra.co.id"): Text 'sbodionl0337@ai.astra.co.id' is set on object 'Object Repository/Page_User FS/input_Search by Email_col-md-9'
+
+2019-09-24 16:13:25 - [MESSAGE][PASSED] - Text 'sbodionl0337@ai.astra.co.id' is set on object 'Object Repository/Page_User FS/input_Search by Email_col-md-9'
+
+2019-09-24 16:13:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_User FS/button_Search")): Object: 'Object Repository/Page_User FS/button_Search' is clicked on
+
+2019-09-24 16:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_User FS/button_Search' is clicked on
+
+2019-09-24 16:13:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-09-24 16:13:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-24 16:13:26 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_User FS/td_sbodionl0337ai.astra.co.id"), 10)): Success
+
+2019-09-24 16:13:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_User FS/td_sbodionl0337ai.astra.co.id' is present
+
+2019-09-24 16:13:26 - [TEST_STEP][PASSED] - markPassed("Success"): Success
+
+2019-09-24 16:13:26 - [MESSAGE][PASSED] - Success
+
+2019-09-24 16:13:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-09-24 16:13:27 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FS/Clear Search User" classname="Test Cases/FS/Clear Search User" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FS/Clear Search User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Clear Search User.run(Clear Search User:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1569316378231.run(TempTestSuite1569316378231.groovy:36)
+"/>
+         <system-out><![CDATA[2019-09-24 16:13:27 - [TEST_CASE][FAILED] - Test Cases/FS/Clear Search User: Test Cases/FS/Clear Search User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Clear Search User.run(Clear Search User:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1569316378231.run(TempTestSuite1569316378231.groovy:36)
+
+
+2019-09-24 16:13:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-09-24 16:13:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-09-24 16:13:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-24 16:13:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-24 16:13:32 - [TEST_STEP][PASSED] - navigateToUrl("https://astra-ai-fs-admin.azurewebsites.net/"): Navigate to 'https://astra-ai-fs-admin.azurewebsites.net/' successfully
+
+2019-09-24 16:13:43 - [MESSAGE][PASSED] - Navigate to 'https://astra-ai-fs-admin.azurewebsites.net/' successfully
+
+2019-09-24 16:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clear Search FS/a_User Management")): Object: 'Object Repository/Page_Clear Search FS/a_User Management' is clicked on
+
+2019-09-24 16:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clear Search FS/a_User Management' is clicked on
+
+2019-09-24 16:13:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-09-24 16:13:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-24 16:13:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clear Search FS/a_User")): Object: 'Object Repository/Page_Clear Search FS/a_User' is clicked on
+
+2019-09-24 16:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clear Search FS/a_User' is clicked on
+
+2019-09-24 16:13:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-09-24 16:13:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-24 16:13:47 - [TEST_STEP][PASSED] - waitForElementNotVisible(findTestObject("Page_Clear Search FS/td_sbobesti0328ai.astra.co.id"), 5, STOP_ON_FAILURE): Object 'Object Repository/Page_Clear Search FS/td_sbobesti0328ai.astra.co.id' is visible after 5 second(s)
+
+2019-09-24 16:13:53 - [MESSAGE][WARNING] - Object 'Object Repository/Page_Clear Search FS/td_sbobesti0328ai.astra.co.id' is visible after 5 second(s)
+
+2019-09-24 16:13:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clear Search FS/td_sbobesti0328ai.astra.co.id")): Object: 'Object Repository/Page_Clear Search FS/td_sbobesti0328ai.astra.co.id' is clicked on
+
+2019-09-24 16:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clear Search FS/td_sbobesti0328ai.astra.co.id' is clicked on
+
+2019-09-24 16:13:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-09-24 16:13:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-24 16:13:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clear Search FS/input_Search by Email_col-md-9"), "sbobesti0328@ai.astra.co.id"): Text 'sbobesti0328@ai.astra.co.id' is set on object 'Object Repository/Page_Clear Search FS/input_Search by Email_col-md-9'
+
+2019-09-24 16:13:54 - [MESSAGE][PASSED] - Text 'sbobesti0328@ai.astra.co.id' is set on object 'Object Repository/Page_Clear Search FS/input_Search by Email_col-md-9'
+
+2019-09-24 16:13:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clear Search FS/button_Search")): Object: 'Object Repository/Page_Clear Search FS/button_Search' is clicked on
+
+2019-09-24 16:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clear Search FS/button_Search' is clicked on
+
+2019-09-24 16:13:54 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Clear Search FS/td_sbobesti0328ai.astra.co.id"), 5)): Clear User Succsess
+
+2019-09-24 16:13:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Clear Search FS/td_sbobesti0328ai.astra.co.id' is present
+
+2019-09-24 16:13:54 - [TEST_STEP][PASSED] - markPassed("Clear User Succsess"): Clear User Succsess
+
+2019-09-24 16:13:54 - [MESSAGE][PASSED] - Clear User Succsess
+
+2019-09-24 16:13:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-09-24 16:13:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-24 16:13:55 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_Clear Search FS/button_Clear"), 10)): null
+
+2019-09-24 16:13:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Clear Search FS/button_Clear' is present
+
+2019-09-24 16:13:55 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_Clear Search FS/button_Clear"))): null
+
+2019-09-24 16:13:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Clear Search FS/button_Clear' is clickable
+
+2019-09-24 16:13:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clear Search FS/button_Clear")): Object: 'Object Repository/Page_Clear Search FS/button_Clear' is clicked on
+
+2019-09-24 16:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clear Search FS/button_Clear' is clicked on
+
+2019-09-24 16:13:55 - [TEST_STEP][PASSED] - markPassed("Clear User Succsess"): Clear User Succsess
+
+2019-09-24 16:13:55 - [MESSAGE][PASSED] - Clear User Succsess
+
+2019-09-24 16:13:55 - [TEST_STEP][PASSED] - countData = Action.getCountElementInTableByTag("tbody"): null
+
+2019-09-24 16:13:55 - [TEST_STEP][PASSED] - if (countData > 1): null
+
+2019-09-24 16:13:55 - [TEST_STEP][PASSED] - else: null
+
+2019-09-24 16:13:55 - [TEST_STEP][PASSED] - markFailed("Failed"): null
+
+2019-09-24 16:13:55 - [TEST_STEP][FAILED] - delay(1): delay(1) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Clear Search User.run(Clear Search User:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1569316378231.run(TempTestSuite1569316378231.groovy:36)
+
+
+2019-09-24 16:13:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-24 16:13:57 - [MESSAGE][FAILED] - delay(1) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Clear Search User.run(Clear Search User:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1569316378231.run(TempTestSuite1569316378231.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-09-24 16:13:27 - [TEST_CASE][FAILED] - Test Cases/FS/Clear Search User: Test Cases/FS/Clear Search User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Clear Search User.run(Clear Search User:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1569316378231.run(TempTestSuite1569316378231.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-09-24 16:13:00 - [TEST_SUITE][FAILED] - FS User: Test Cases/FS/Clear Search User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Clear Search User.run(Clear Search User:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1569316378231.run(TempTestSuite1569316378231.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-09-24 16:13:00 - [TEST_SUITE][FAILED] - FS User: Test Cases/FS/Clear Search User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:18)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$0.call(Unknown Source)
+	at Clear Search User.run(Clear Search User:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1569316378231.run(TempTestSuite1569316378231.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

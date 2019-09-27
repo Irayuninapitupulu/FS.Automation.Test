@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FS User,Chrome 76.0.3809.132,,2019-09-24 16:08:21,2019-09-24 16:09:15,54.166s,PASSED
+,,,,,,
+Test Cases/FS/Search User,Chrome 76.0.3809.132,,2019-09-24 16:08:21,2019-09-24 16:08:49,28.059s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.132,,2019-09-24 16:08:22,2019-09-24 16:08:27,5.173s,PASSED
+"navigateToUrl(""https://astra-ai-fs-admin.azurewebsites.net/#/track-fs-position"")",Chrome 76.0.3809.132,,2019-09-24 16:08:27,2019-09-24 16:08:44,16.693s,PASSED
+"click(findTestObject(""Page_User FS/a_User Management""))",Chrome 76.0.3809.132,,2019-09-24 16:08:44,2019-09-24 16:08:44,0.150s,PASSED
+"click(findTestObject(""Page_User FS/a_User""))",Chrome 76.0.3809.132,,2019-09-24 16:08:44,2019-09-24 16:08:44,0.144s,PASSED
+delay(5),Chrome 76.0.3809.132,,2019-09-24 16:08:44,2019-09-24 16:08:49,5.042s,PASSED
+"setText(findTestObject(""Page_User FS/input_Search by Email_col-md-9""), ""sbodionl0337@ai.astra.co.id"")",Chrome 76.0.3809.132,,2019-09-24 16:08:49,2019-09-24 16:08:49,0.300s,PASSED
+"click(findTestObject(""Page_User FS/button_Search""))",Chrome 76.0.3809.132,,2019-09-24 16:08:49,2019-09-24 16:08:49,0.080s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_User FS/td_sbodionl0337ai.astra.co.id""), 10))",Chrome 76.0.3809.132,,2019-09-24 16:08:49,2019-09-24 16:08:49,0.069s,PASSED
+,,,,,,
+Test Cases/FS/Clear Search User,Chrome 76.0.3809.132,,2019-09-24 16:08:49,2019-09-24 16:09:14,24.575s,PASSED
+"openBrowser("""")",Chrome 76.0.3809.132,,2019-09-24 16:08:50,2019-09-24 16:08:55,5.274s,PASSED
+"navigateToUrl(""https://astra-ai-fs-admin.azurewebsites.net/"")",Chrome 76.0.3809.132,,2019-09-24 16:08:55,2019-09-24 16:09:07,11.832s,PASSED
+"click(findTestObject(""Page_Clear Search FS/a_User Management""))",Chrome 76.0.3809.132,,2019-09-24 16:09:07,2019-09-24 16:09:07,0.108s,PASSED
+"click(findTestObject(""Page_Clear Search FS/a_User""))",Chrome 76.0.3809.132,,2019-09-24 16:09:07,2019-09-24 16:09:07,0.262s,PASSED
+"waitForElementNotVisible(findTestObject(""Page_Clear Search FS/td_sbobesti0328ai.astra.co.id""), 5, STOP_ON_FAILURE)",Chrome 76.0.3809.132,,2019-09-24 16:09:07,2019-09-24 16:09:13,5.926s,PASSED
+"click(findTestObject(""Page_Clear Search FS/td_sbobesti0328ai.astra.co.id""))",Chrome 76.0.3809.132,,2019-09-24 16:09:13,2019-09-24 16:09:13,0.115s,PASSED
+"setText(findTestObject(""Page_Clear Search FS/input_Search by Email_col-md-9""), ""sbobesti0328@ai.astra.co.id"")",Chrome 76.0.3809.132,,2019-09-24 16:09:13,2019-09-24 16:09:14,0.238s,PASSED
+"click(findTestObject(""Page_Clear Search FS/button_Search""))",Chrome 76.0.3809.132,,2019-09-24 16:09:14,2019-09-24 16:09:14,0.078s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Clear Search FS/td_sbobesti0328ai.astra.co.id""), 5))",Chrome 76.0.3809.132,,2019-09-24 16:09:14,2019-09-24 16:09:14,0.029s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_Clear Search FS/button_Clear""), 10))",Chrome 76.0.3809.132,,2019-09-24 16:09:14,2019-09-24 16:09:14,0.398s,PASSED

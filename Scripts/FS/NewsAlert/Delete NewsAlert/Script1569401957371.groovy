@@ -1,0 +1,39 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://astra-ai-fs-admin.azurewebsites.net/#/news/list')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('NewsAlert FS/Page_Delete NewsAlert/a_News - Libur Nasional Seinfo'))
+
+WebUI.delay(1)
+
+WebUI.scrollToElement(findTestObject('NewsAlert FS/Page_Delete NewsAlert/a_News - Libur Nasional Seinfo'), 15)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('NewsAlert FS/Page_Delete NewsAlert/button_Yes delete it'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('NewsAlert FS/Page_Delete NewsAlert/button_OK'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+

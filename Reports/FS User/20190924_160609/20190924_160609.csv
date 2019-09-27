@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FS User,Chrome 76.0.3809.132,,2019-09-24 16:06:13,2019-09-24 16:06:35,22.013s,FAILED
+,,,,,,
+Test Cases/FS/Clear Search User,Chrome 76.0.3809.132,,2019-09-24 16:06:14,2019-09-24 16:06:23,9.719s,FAILED
+"openBrowser("""")",Chrome 76.0.3809.132,,2019-09-24 16:06:14,2019-09-24 16:06:20,5.360s,PASSED
+"navigateToUrl(""https://astra-ai-fs-admin.azurewebsites.net/"")",Chrome 76.0.3809.132,,2019-09-24 16:06:20,2019-09-24 16:06:23,3.525s,PASSED
+"click(findTestObject(""Page_Clear Search FS/a_User Management""))",Chrome 76.0.3809.132,,2019-09-24 16:06:23,2019-09-24 16:06:23,0.270s,FAILED
+,,,,,,
+Test Cases/FS/Search User,Chrome 76.0.3809.132,,2019-09-24 16:06:23,2019-09-24 16:06:34,10.953s,FAILED
+"openBrowser("""")",Chrome 76.0.3809.132,,2019-09-24 16:06:24,2019-09-24 16:06:27,3.529s,PASSED
+"navigateToUrl(""https://astra-ai-fs-admin.azurewebsites.net/#/track-fs-position"")",Chrome 76.0.3809.132,,2019-09-24 16:06:27,2019-09-24 16:06:34,6.873s,FAILED

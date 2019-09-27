@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-24T16:08:21</date>
+  <millis>1569316101156</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/FS User</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">FS User</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/FS User</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:21</date>
+  <millis>1569316101222</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = irayuni.napitupulu - DIVINE.moonlay.jakarta</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">irayuni.napitupulu - DIVINE.moonlay.jakarta</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:21</date>
+  <millis>1569316101224</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:21</date>
+  <millis>1569316101226</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 11.11.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">11.11.3.11</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:21</date>
+  <millis>1569316101228</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:21</date>
+  <millis>1569316101881</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FS/Search User</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/FS/Search User</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/FS/Search User</property>
+  <property name="source">C:\\Users\\irayuni.napitululu\\Katalon Studio\\Mission Astra\\Test Cases\\FS\\Search User.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:22</date>
+  <millis>1569316102281</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:23</date>
+  <millis>1569316103581</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:23</date>
+  <millis>1569316103639</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:27</date>
+  <millis>1569316107409</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 20420b5741f048ffb9686784487fb84f</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">20420b5741f048ffb9686784487fb84f</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:27</date>
+  <millis>1569316107445</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.132</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:27</date>
+  <millis>1569316107447</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:27</date>
+  <millis>1569316107451</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:27</date>
+  <millis>1569316107452</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:27</date>
+  <millis>1569316107453</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:27</date>
+  <millis>1569316107454</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:27</date>
+  <millis>1569316107455</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://astra-ai-fs-admin.azurewebsites.net/#/track-fs-position\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124146</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://astra-ai-fs-admin.azurewebsites.net/#/track-fs-position&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124148</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://astra-ai-fs-admin.azurewebsites.net/#/track-fs-position\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124149</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_User FS/a_User Management\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124298</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_User FS/a_User Management&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124299</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_User FS/a_User Management\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124300</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_User FS/a_User\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124442</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_User FS/a_User&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124444</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_User FS/a_User\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:44</date>
+  <millis>1569316124444</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129484</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129486</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129487</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_User FS/input_Search by Email_col-md-9\&amp;quot;), \&amp;quot;sbodionl0337@ai.astra.co.id\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129786</millis>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;sbodionl0337@ai.astra.co.id&amp;apos; is set on object &amp;apos;Object Repository/Page_User FS/input_Search by Email_col-md-9&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129787</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_User FS/input_Search by Email_col-md-9\&amp;quot;), \&amp;quot;sbodionl0337@ai.astra.co.id\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129788</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_User FS/button_Search\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129868</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_User FS/button_Search&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129868</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_User FS/button_Search\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129869</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Page_User FS/td_sbodionl0337ai.astra.co.id\&amp;quot;), 10))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129927</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_User FS/td_sbodionl0337ai.astra.co.id&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129928</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markPassed(\&amp;quot;Success\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129938</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Success</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129938</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markPassed(\&amp;quot;Success\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129938</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Page_User FS/td_sbodionl0337ai.astra.co.id\&amp;quot;), 10))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129939</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FS/Search User</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129940</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FS/Search User</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:49</date>
+  <millis>1569316129947</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FS/Clear Search User</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/FS/Clear Search User</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/FS/Clear Search User</property>
+  <property name="source">C:\\Users\\irayuni.napitululu\\Katalon Studio\\Mission Astra\\Test Cases\\FS\\Clear Search User.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:50</date>
+  <millis>1569316130258</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:50</date>
+  <millis>1569316130259</millis>
+  <sequence>86</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:51</date>
+  <millis>1569316131012</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:55</date>
+  <millis>1569316135514</millis>
+  <sequence>89</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = f9d3066257fe6411b7b6d7ed38fc6314</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">f9d3066257fe6411b7b6d7ed38fc6314</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:55</date>
+  <millis>1569316135526</millis>
+  <sequence>90</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 76.0.3809.132</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 76.0.3809.132</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:55</date>
+  <millis>1569316135527</millis>
+  <sequence>91</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:55</date>
+  <millis>1569316135528</millis>
+  <sequence>92</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:55</date>
+  <millis>1569316135529</millis>
+  <sequence>93</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-09-24T16:08:55</date>
+  <millis>1569316135530</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:55</date>
+  <millis>1569316135532</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:08:55</date>
+  <millis>1569316135532</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://astra-ai-fs-admin.azurewebsites.net/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147363</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://astra-ai-fs-admin.azurewebsites.net/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147364</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://astra-ai-fs-admin.azurewebsites.net/\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147365</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Clear Search FS/a_User Management\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147472</millis>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Clear Search FS/a_User Management&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147473</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Clear Search FS/a_User Management\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147473</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Clear Search FS/a_User\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147734</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Clear Search FS/a_User&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147735</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Clear Search FS/a_User\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:07</date>
+  <millis>1569316147735</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementNotVisible(findTestObject(\&amp;quot;Page_Clear Search FS/td_sbobesti0328ai.astra.co.id\&amp;quot;), 5, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:13</date>
+  <millis>1569316153661</millis>
+  <sequence>126</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Clear Search FS/td_sbobesti0328ai.astra.co.id&amp;apos; is visible after 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:13</date>
+  <millis>1569316153661</millis>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementNotVisible(findTestObject(\&amp;quot;Page_Clear Search FS/td_sbobesti0328ai.astra.co.id\&amp;quot;), 5, STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:13</date>
+  <millis>1569316153662</millis>
+  <sequence>128</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Clear Search FS/td_sbobesti0328ai.astra.co.id\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:13</date>
+  <millis>1569316153774</millis>
+  <sequence>135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Clear Search FS/td_sbobesti0328ai.astra.co.id&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:13</date>
+  <millis>1569316153777</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Clear Search FS/td_sbobesti0328ai.astra.co.id\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:13</date>
+  <millis>1569316153778</millis>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Page_Clear Search FS/input_Search by Email_col-md-9\&amp;quot;), \&amp;quot;sbobesti0328@ai.astra.co.id\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154015</millis>
+  <sequence>149</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;sbobesti0328@ai.astra.co.id&amp;apos; is set on object &amp;apos;Object Repository/Page_Clear Search FS/input_Search by Email_col-md-9&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154016</millis>
+  <sequence>150</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Page_Clear Search FS/input_Search by Email_col-md-9\&amp;quot;), \&amp;quot;sbobesti0328@ai.astra.co.id\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154016</millis>
+  <sequence>151</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Clear Search FS/button_Search\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154092</millis>
+  <sequence>158</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Clear Search FS/button_Search&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154094</millis>
+  <sequence>159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Clear Search FS/button_Search\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154094</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Page_Clear Search FS/td_sbobesti0328ai.astra.co.id\&amp;quot;), 5))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154119</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Clear Search FS/td_sbobesti0328ai.astra.co.id&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154120</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markPassed(\&amp;quot;Clear User Succsess\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154121</millis>
+  <sequence>168</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clear User Succsess</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154122</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markPassed(\&amp;quot;Clear User Succsess\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154123</millis>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Page_Clear Search FS/td_sbobesti0328ai.astra.co.id\&amp;quot;), 5))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154123</millis>
+  <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(\&amp;quot;Page_Clear Search FS/button_Clear\&amp;quot;), 10))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154154</millis>
+  <sequence>177</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Clear Search FS/button_Clear&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154155</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementClickable(findTestObject(\&amp;quot;Page_Clear Search FS/button_Clear\&amp;quot;)))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154205</millis>
+  <sequence>184</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_Clear Search FS/button_Clear&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154205</millis>
+  <sequence>185</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Page_Clear Search FS/button_Clear\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154286</millis>
+  <sequence>192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_Clear Search FS/button_Clear&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154287</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Page_Clear Search FS/button_Clear\&amp;quot;))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154287</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markPassed(\&amp;quot;Clear User Succsess\&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154288</millis>
+  <sequence>195</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clear User Succsess</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154288</millis>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markPassed(\&amp;quot;Clear User Succsess\&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154288</millis>
+  <sequence>197</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : countData = Action.getCountElementInTableByTag(\&amp;quot;tbody\&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154518</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : countData = Action.getCountElementInTableByTag(\&amp;quot;tbody\&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154519</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (countData &amp;gt; 1)</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">49</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154519</millis>
+  <sequence>200</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markPassed(\&amp;quot;Success\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154520</millis>
+  <sequence>201</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Success</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154520</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markPassed(\&amp;quot;Success\&amp;quot;)</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154521</millis>
+  <sequence>203</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (countData &amp;gt; 1)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154521</millis>
+  <sequence>204</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementClickable(findTestObject(\&amp;quot;Page_Clear Search FS/button_Clear\&amp;quot;)))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154521</millis>
+  <sequence>205</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(\&amp;quot;Page_Clear Search FS/button_Clear\&amp;quot;), 10))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154521</millis>
+  <sequence>206</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FS/Clear Search User</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:14</date>
+  <millis>1569316154522</millis>
+  <sequence>207</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FS/Clear Search User</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-24T16:09:15</date>
+  <millis>1569316155322</millis>
+  <sequence>208</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/FS User</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
